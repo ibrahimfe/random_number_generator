@@ -1,6 +1,6 @@
 # Random Password Generator
 
-This is a Python script that generates a random password with customizable options.
+This is a Python script that generates a random password with customizable options. This file use 3 library (string, random, argparse)
 
 ## Usage
 
