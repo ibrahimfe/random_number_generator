@@ -5,7 +5,7 @@ import argparse
 # Merekam Argument yang ada di command line
 parser = argparse.ArgumentParser(description="Generater A Random Password")
 parser.add_argument(
-    "length", type=int, default=8, help="Length of The Password, default is 8"
+    "-l", "--length", type=int, default=8, help="Length of The Password, default is 8"
 )
 parser.add_argument(
     "-p", "--punctuation", action="store_true", help="Include Punctuation"
